@@ -4,6 +4,8 @@ import osmnx as ox
 def generate_graph(place, network_type):
     '''
     Function to generate a graph from a place.
+    TO DO: Clean the network, removing nodes that are not technically nodes.
+    https://github.com/gboeing/osmnx-examples/blob/main/notebooks/04-simplify-graph-consolidate-nodes.ipynb
 
     Parameters
     ----------
