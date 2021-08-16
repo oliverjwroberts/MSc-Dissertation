@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-08-13 16:45:17 by Eclipse SUMO GUI Version 1.9.2
+<!-- generated on 2021-08-16 20:47:40 by Eclipse SUMO GUI Version 1.9.2
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -51,7 +51,7 @@
 -->
 
 <tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
-    <tripinfo id="ev" depart="400.00" departLane="-41432539#2_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="847.00" arrivalLane="844804868#0_2" arrivalPos="168.30" arrivalSpeed="28.21" duration="447.00" routeLength="13977.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="35.85" rerouteNo="1" devices="tripinfo_ev routing_ev bluelight_ev" vType="ev" speedFactor="1.62" vaporized="">
+    <tripinfo id="ev" depart="400.00" departLane="-41432539#2_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="902.00" arrivalLane="844804868#0_2" arrivalPos="168.30" arrivalSpeed="22.06" duration="502.00" routeLength="14162.00" waitingTime="4.00" waitingCount="1" stopTime="0.00" timeLoss="127.17" rerouteNo="1" devices="tripinfo_ev routing_ev bluelight_ev" vType="ev" speedFactor="1.62" vaporized="">
         <bluelight/>
     </tripinfo>
 </tripinfos>
