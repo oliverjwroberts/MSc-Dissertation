@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-08-13 16:45:17 by Eclipse SUMO GUI Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.net.xml"/>
+        <route-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\emergency_vehicle.xml"/>
+        <additional-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.poly.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\traffic_routes.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\traffic_flows.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\ev_route_info.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.explicit value="ev"/>
+        <device.rerouting.period value="10"/>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <bluelight_device>
+        <device.bluelight.explicit value="ev"/>
+    </bluelight_device>
+
+    <tripinfo_device>
+        <device.tripinfo.explicit value="ev"/>
+    </tripinfo_device>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="ev" depart="400.00" departLane="-41432539#2_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="847.00" arrivalLane="844804868#0_2" arrivalPos="168.30" arrivalSpeed="28.21" duration="447.00" routeLength="13977.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="35.85" rerouteNo="1" devices="tripinfo_ev routing_ev bluelight_ev" vType="ev" speedFactor="1.62" vaporized="">
+        <bluelight/>
+    </tripinfo>
+</tripinfos>

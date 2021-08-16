@@ -7,7 +7,10 @@
 
     <input>
         <net-file value="osm.net.xml"/>
-        <additional-files value="osm.poly.xml"/>
+        <route-files value="emergency_vehicle.xml"/>
+        <additional-files value="osm.poly.xml,traffic_routes.xml,traffic_flows.xml"/>
+		<begin value="0"/>
+		<end value="3600"/>
     </input>
 
     <processing>
@@ -17,12 +20,17 @@
     <routing>
         <device.rerouting.adaptation-steps value="18"/>
         <device.rerouting.adaptation-interval value="10"/>
+		<device.rerouting.explicit value="ev"/>
+		<device.rerouting.period value="10"/>
     </routing>
 
     <report>
         <verbose value="true"/>
         <duration-log.statistics value="true"/>
         <no-step-log value="true"/>
+		<device.tripinfo.explicit value="ev"/>
+		<device.bluelight.explicit value="ev"/>
+		<tripinfo-output value="ev_route_info.xml"/>
     </report>
 
     <gui_only>
