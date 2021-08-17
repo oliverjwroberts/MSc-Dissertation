@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-08-17 12:55:04 by Eclipse SUMO GUI Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.net.xml"/>
+        <route-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\emergency_vehicle.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\traffic_routes.xml"/>
+        <additional-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.poly.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\calibrator.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\tripinfo_output.xml"/>
+        <statistic-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\statistic_output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <bluelight_device>
+        <device.bluelight.explicit value="ev"/>
+    </bluelight_device>
+
+    <random_number>
+        <seed value="202"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="47304" inserted="41760" running="12380" waiting="4"/>
+    <teleports total="219" jam="126" yield="36" wrongLane="57"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics routeLength="5064.81" speed="-nan(ind)" duration="419.99" waitingTime="67.95" timeLoss="171.44" departDelay="0.02" departDelayWaiting="-1.00" totalTravelTime="12339301.00" totalDepartDelay="546.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
