@@ -1,9 +1,9 @@
 vehicles_inserted;vehicles_loaded;vehicles_running;vehicles_waiting;teleports_jam;teleports_total;teleports_wrongLane;teleports_yield;safety_collisions;safety_emergencyStops;persons_jammed;persons_loaded;persons_running;vehicleTripStatistics_departDelay;vehicleTripStatistics_departDelayWaiting;vehicleTripStatistics_duration;vehicleTripStatistics_routeLength;vehicleTripStatistics_speed;vehicleTripStatistics_timeLoss;vehicleTripStatistics_totalDepartDelay;vehicleTripStatistics_totalTravelTime;vehicleTripStatistics_waitingTime;pedestrianStatistics_duration;pedestrianStatistics_number;pedestrianStatistics_routeLength;pedestrianStatistics_timeLoss;rideStatistics_number;transportStatistics_number
-41760;47304;12380;4;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;126;219;57;36;;;;;;;;;;;;;;;;;;;;
+45383;51182;12420;7;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;137;315;67;111;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;0;0;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;0;0;0;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;0.02;-1.00;419.99;5064.81;-nan(ind);171.44;546.00;12339301.00;67.95;;;;;;
+;;;;;;;;;;;;;0.03;-1.00;315.88;3182.02;-nan(ind);143.61;866.00;10412361.00;63.65;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;0.00;0;0.00;0.00;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;0;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;0

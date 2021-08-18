@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-08-17 12:55:04 by Eclipse SUMO GUI Version 1.9.2
+<!-- generated on 2021-08-18 18:52:20 by Eclipse SUMO sumo Version 1.9.2
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.net.xml"/>
-        <route-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\emergency_vehicle.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\traffic_routes.xml"/>
-        <additional-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.poly.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\calibrator.xml"/>
+        <net-file value="swansea.net.xml"/>
+        <route-files value="emergency_vehicle.xml,traffic_routes.xml"/>
+        <additional-files value="swansea.poly.xml,calibrator.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\tripinfo_output.xml"/>
-        <statistic-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\statistic_output.xml"/>
+        <tripinfo-output value="tripinfo_output.xml"/>
+        <statistic-output value="statistic_output.xml"/>
     </output>
 
     <time>
@@ -42,19 +42,15 @@
         <seed value="202"/>
     </random_number>
 
-    <gui_only>
-        <gui-settings-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\osm.view.xml"/>
-    </gui_only>
-
 </configuration>
 -->
 
 <statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
-    <vehicles loaded="47304" inserted="41760" running="12380" waiting="4"/>
-    <teleports total="219" jam="126" yield="36" wrongLane="57"/>
+    <vehicles loaded="51182" inserted="45383" running="12420" waiting="7"/>
+    <teleports total="315" jam="137" yield="111" wrongLane="67"/>
     <safety collisions="0" emergencyStops="0"/>
     <persons loaded="0" running="0" jammed="0"/>
-    <vehicleTripStatistics routeLength="5064.81" speed="-nan(ind)" duration="419.99" waitingTime="67.95" timeLoss="171.44" departDelay="0.02" departDelayWaiting="-1.00" totalTravelTime="12339301.00" totalDepartDelay="546.00"/>
+    <vehicleTripStatistics routeLength="3182.02" speed="-nan(ind)" duration="315.88" waitingTime="63.65" timeLoss="143.61" departDelay="0.03" departDelayWaiting="-1.00" totalTravelTime="10412361.00" totalDepartDelay="866.00"/>
     <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
     <rideStatistics number="0"/>
     <transportStatistics number="0"/>
