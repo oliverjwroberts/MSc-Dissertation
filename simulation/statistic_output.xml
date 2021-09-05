@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-08-18 18:52:20 by Eclipse SUMO sumo Version 1.9.2
+<!-- generated on 2021-09-05 18:42:46 by Eclipse SUMO sumo Version 1.9.2
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -35,22 +35,26 @@
     </report>
 
     <bluelight_device>
-        <device.bluelight.explicit value="ev"/>
+        <device.bluelight.explicit value="ev_trip"/>
     </bluelight_device>
 
     <random_number>
         <seed value="202"/>
     </random_number>
 
+    <gui_only>
+        <gui-settings-file value="simulation_view.xml"/>
+    </gui_only>
+
 </configuration>
 -->
 
 <statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
-    <vehicles loaded="51182" inserted="45383" running="12420" waiting="7"/>
-    <teleports total="315" jam="137" yield="111" wrongLane="67"/>
+    <vehicles loaded="49494" inserted="44360" running="12279" waiting="4"/>
+    <teleports total="311" jam="136" yield="104" wrongLane="71"/>
     <safety collisions="0" emergencyStops="0"/>
     <persons loaded="0" running="0" jammed="0"/>
-    <vehicleTripStatistics routeLength="3182.02" speed="-nan(ind)" duration="315.88" waitingTime="63.65" timeLoss="143.61" departDelay="0.03" departDelayWaiting="-1.00" totalTravelTime="10412361.00" totalDepartDelay="866.00"/>
+    <vehicleTripStatistics routeLength="3287.62" speed="-nan(ind)" duration="325.28" waitingTime="71.18" timeLoss="150.59" departDelay="0.03" departDelayWaiting="-1.00" totalTravelTime="10435282.00" totalDepartDelay="988.00"/>
     <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
     <rideStatistics number="0"/>
     <transportStatistics number="0"/>
