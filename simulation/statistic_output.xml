@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-09-06 14:00:37 by Eclipse SUMO sumo Version 1.9.2
+<!-- generated on 2021-09-07 17:01:31 by Eclipse SUMO GUI Version 1.9.2
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="swansea.net.xml"/>
-        <route-files value="emergency_vehicle.xml,traffic_routes.xml"/>
-        <additional-files value="swansea.poly.xml,calibrator.xml"/>
+        <net-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\swansea.net.xml"/>
+        <route-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\emergency_vehicle.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\traffic_routes.xml"/>
+        <additional-files value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\swansea.poly.xml,C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\calibrator.xml"/>
     </input>
 
     <output>
-        <fcd-output value="fcd_output.xml"/>
-        <tripinfo-output value="tripinfo_output.xml"/>
-        <statistic-output value="statistic_output.xml"/>
+        <fcd-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\fcd_output.xml"/>
+        <tripinfo-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\tripinfo_output.xml"/>
+        <statistic-output value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\statistic_output.xml"/>
     </output>
 
     <time>
@@ -48,18 +48,18 @@
     </random_number>
 
     <gui_only>
-        <gui-settings-file value="simulation_view.xml"/>
+        <gui-settings-file value="C:\Users\ollir\OneDrive\Documents\University\Data%20Science%20MSc\Dissertation\To-Fly-or-Not-to-Fly\simulation\simulation_view.xml"/>
     </gui_only>
 
 </configuration>
 -->
 
 <statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
-    <vehicles loaded="52458" inserted="46095" running="12727" waiting="10"/>
-    <teleports total="413" jam="164" yield="129" wrongLane="120"/>
+    <vehicles loaded="7253" inserted="6580" running="4046" waiting="5"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
     <safety collisions="0" emergencyStops="0"/>
     <persons loaded="0" running="0" jammed="0"/>
-    <vehicleTripStatistics routeLength="3079.02" speed="-nan(ind)" duration="295.89" waitingTime="59.02" timeLoss="129.77" departDelay="0.02" departDelayWaiting="-1.00" totalTravelTime="9873304.00" totalDepartDelay="743.00"/>
+    <vehicleTripStatistics routeLength="3597.01" speed="20.09" duration="222.65" waitingTime="9.53" timeLoss="46.15" departDelay="0.16" departDelayWaiting="-1.00" totalTravelTime="564183.00" totalDepartDelay="409.00"/>
     <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
     <rideStatistics number="0"/>
     <transportStatistics number="0"/>
