@@ -1,5 +1,5 @@
 <routes>
-    <vType id="ev" length="5" maxSpeed="67" accel="4" sigma="0.2" speedFactor="1.5" guiShape="emergency" vClass="emergency" laneChangeModel="SL2015" carFollowModel="IDM">
+    <vType id="ev" length="5" maxSpeed="67" accel="4" sigma="0.2" speedFactor="1.5" guiShape="emergency" vClass="emergency">
         <param key="has.tripinfo.device" value="true"/>
         <param key="has.bluelight.device" value="true"/>
         <param key="has.fcd.device" value="true"/>
