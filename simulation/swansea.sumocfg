@@ -13,8 +13,6 @@
     <devices>
         <device.bluelight.explicit value="ev_trip"/>
         <device.fcd.explicit value="ev_trip"/>
-        <device.rerouting.explicit value="ev_trip"/>
-        <device.rerouting.period value="100"/>
     </devices>
     <report>
         <verbose value="true"/>

@@ -4,6 +4,5 @@
         <param key="has.bluelight.device" value="true"/>
         <param key="has.fcd.device" value="true"/>
     </vType>
-    <trip id="ev_trip" type="ev" depart="600" from="-41432539#2" to="836332232#0"/>
-    <!-- this is from Morriston Hospital -> Singleton Hospital -->
+    <trip id="ev_trip" type="ev" depart="600" from="17364035#0" to="23943722"/>
 </routes>
